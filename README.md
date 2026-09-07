@@ -1,3 +1,5 @@
+# This project is accomplished by aysenurdorr-gif, elcintimurcakmak and Cooljoe67 at WBS Coding School.
+
 # Sentiment Analysis Pipeline
 
 ## Setup
