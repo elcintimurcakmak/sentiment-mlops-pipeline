@@ -1,8 +1,8 @@
-# This project is accomplished by aysenurdorr-gif, elcintimurcakmak and Cooljoe67 at WBS Coding School.
+## This project is accomplished by aysenurdorr-gif, elcintimurcakmak and Cooljoe67 at WBS Coding School.
 
-# Sentiment Analysis Pipeline
+### Sentiment Analysis Pipeline
 
-## Setup
+### Setup
 
 ### Option 1: Python venv
 python -m venv .venv
@@ -14,14 +14,14 @@ conda create -n sentiment-env python=3.11 -y
 conda activate sentiment-env
 pip install -r requirements.txt
 
-## Train
+### Train
 python src/train.py --data data/train.csv --out models/sentiment.joblib
 
-## Predict
+### Predict
 python src/predict.py "I absolutely loved it" "That was awful"
-## Output format: label  probability  text
-## Example:
-## 1    0.982    I absolutely loved it
-## 0    0.015    That was awful
+Output format: label  probability  text
+Example:
+1    0.982    I absolutely loved it
+0    0.015    That was awful
 
-## This should crash!
+This should crash!
